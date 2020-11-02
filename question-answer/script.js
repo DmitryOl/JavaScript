@@ -115,7 +115,7 @@ submitBtn.addEventListener('click', () => {
             ques.innerHTML = `
                 <h2> Вы правильно ответили ${score}/${quesans.length} вопросов</h2>
                 
-                <button on click="location.reload()">Пройти заного</button>
+                <button onclick="location.reload()">Пройти заного</button>
             `;
         }
     }
