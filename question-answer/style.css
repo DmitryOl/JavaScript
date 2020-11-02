@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    box-sizing: 0;
+}
+
+body {
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 11%, #f5f7fa 85%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+.ques-contanier {
+    background-color: #aea;
+    border-radius: 4px;
+    box-shadow: 0 0 12px 6px rgba(0,0,0,0.5);
+    overflow: hidden;
+    width: 500px;
+    max-width: 100%;
+}
+.ques-header {
+    padding: 2rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 1rem;
+}
+button:hover {
+    background-color: blueviolet;
+}
+button:focus {
+    outline: none;
+}
