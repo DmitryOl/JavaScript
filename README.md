@@ -5,3 +5,4 @@ It's my learning project.
 3. Coocing app: recipe
 4. Note app: CRUD app, localstorage
 5. ToDo app: CRUD app, localstorage
+6. Movie app:
