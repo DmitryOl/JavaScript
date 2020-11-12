@@ -6,3 +6,4 @@ It's my learning project.
 4. Note app: CRUD app, localstorage
 5. ToDo app: CRUD app, localstorage
 6. Movie app:
+7. github profile
